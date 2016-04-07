@@ -1,0 +1,19 @@
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'base/normalize';
+@import 'base/global';
+@import 'base/utilities';
+
+
+@media screen and (min-width: 600px) {
+  @import 'screens/tablet';
+}
+
+@media screen and (min-width: 768px) {
+  @import 'screens/tabletLarge';
+}
+
+@media screen and (min-width: 1000px) {
+  @import 'screens/desktop';
+}
