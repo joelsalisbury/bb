@@ -1,0 +1,19 @@
+.nav__main {
+	display:block;
+	background:transparent;
+	position:static;
+	float:right;
+	padding:0px;
+}
+
+.nav__item {
+	display:inline-block;
+	margin:0px 15px;
+}
+
+.nav__link {
+	font-size:16px;
+	color:$medGray;
+	font-style:normal;
+	text-decoration:none;
+}

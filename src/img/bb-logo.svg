@@ -1,0 +1,25 @@
+
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF3800" offset="0%"></stop>
+            <stop stop-color="#FF7D00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Portrait">
+            <g id="Navigation" transform="translate(-208.000000, 0.000000)">
+                <g id="BuiltBetter-Full" transform="translate(208.000000, 0.000000)">
+                    <polygon id="Fill-1" fill="url(#linearGradient-1)" points="0 60.3504282 60.7242315 60.3504282 60.7242315 -0.000469230769 0 -0.000469230769"></polygon>
+                    <g id="B" transform="translate(18.978333, 13.625362)" fill="#FFFFFF">
+                        <polygon id="Fill-2" points="0.0526553523 33.6753437 8.49487169 33.6753437 8.49487169 0.112665676 0.0526553523 0.112665676"></polygon>
+                        <path d="M16.410202,15.8457141 L16.410202,15.8457141 C13.2053131,15.8457141 10.6067158,13.263093 10.6067158,10.0764833 L10.6067158,0.113520377 L16.410202,0.113520377 C20.7818081,0.113520377 24.324959,3.6348879 24.324959,7.97961724 C24.324959,12.3229221 20.7818081,15.8457141 16.410202,15.8457141" id="Fill-3"></path>
+                        <path d="M16.410202,33.6756286 L16.410202,33.6756286 C13.2053131,33.6756286 10.6067158,31.0930076 10.6067158,27.9063979 L10.6067158,17.9434349 L16.410202,17.9434349 C20.7818081,17.9434349 24.324959,21.4648024 24.324959,25.8095318 C24.324959,30.1528366 20.7818081,33.6756286 16.410202,33.6756286" id="Fill-5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

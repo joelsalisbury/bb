@@ -1,5 +1,51 @@
 // Our Utilities
 
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
 .u-floatRight{
 	float:right;
+}
+
+[class*='column-'] {
+    float: left;
+    padding: 1em;
+    width: 100%;
+    min-height: 1px; 
+}  
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.u-vCenter {
+    display: table;
+    position: relative;
+    height: 100%;
+
+    z-index: 2;
+}
+
+.u-floatRight {
+    float:right;
+}
+
+.u-vCenter>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+ 
+@media screen and (min-width: $desktopWidth)  {
+    .wrapper {      
+        max-width: $grid-max-width;     
+    }
+
+    @for $i from 1 through $grid-columns {      
+        .column-#{$i} {         
+            width: 100% / $grid-columns * $i;   
+            }           
+    }   
 }

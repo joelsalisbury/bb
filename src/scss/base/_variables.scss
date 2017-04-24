@@ -1,1 +1,26 @@
 // Variables go here
+
+//Global Page Variables
+$page-max-width:80em;
+$page-container-padding:1em;
+
+//Breakpoints
+// grid variables
+$grid-columns: 12;
+$grid-max-width: 75em;
+
+
+$tabletWidth:38em;
+$tabletLargeWidth:48em;
+$desktopWidth:62em;
+
+$darkGray: rgba(0,0,0,0.7);
+$medGray: rgba(0,0,0,0.5);
+$lightGray: rgba(0,0,0,0.1);
+$white: #ffffff;
+$darkBlue: #0F2C41;
+$brandPurple: #3E00FF;
+$brandBlue: #0097FF;
+$brandDarkOrange:#FF8A00;
+
+$brandLightOrange:#FFCD00;
