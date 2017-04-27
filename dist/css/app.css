@@ -411,8 +411,6 @@ p {
   font-size: 75px;
   font-style: italic;
   text-transform: uppercase; }
-  .nav__link:hover {
-    text-decoration: underline; }
 
 .button {
   display: inline-block;
@@ -480,7 +478,9 @@ p {
   letter-spacing: 0;
   line-height: 34px;
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  margin: 0px;
+  padding: 0px; }
 
 .clearfix {
   overflow: auto;
@@ -564,7 +564,10 @@ p {
     padding: 0px; }
   .nav__item {
     display: inline-block;
-    margin: 0px 15px; }
+    margin: 0px 15px;
+    border-bottom: 2px solid transparent; }
+    .nav__item:hover {
+      border-bottom: 2px solid #FF8A00; }
   .nav__link {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);

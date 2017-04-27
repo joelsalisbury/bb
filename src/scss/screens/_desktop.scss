@@ -9,6 +9,10 @@
 .nav__item {
 	display:inline-block;
 	margin:0px 15px;
+	border-bottom:2px solid rgba(0,0,0,0);
+	&:hover {
+		border-bottom:2px solid $brandDarkOrange;
+	}
 }
 
 .nav__link {
@@ -16,4 +20,5 @@
 	color: $medGray;
 	font-style:normal;
 	text-decoration:none;
+
 }
