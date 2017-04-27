@@ -107,6 +107,10 @@ line-height: 24px;
 .card {
 	background: #FFFFFF;
 	border: 1px solid rgba(0,0,0,0.10);
+	transition:0.2s;
+	&:hover {
+		transform: translateY(-5px);
+	}
 }
 
 .card__top {
@@ -132,6 +136,10 @@ line-height: 24px;
 		letter-spacing: 0;	
 		line-height:1.5em;
 	}
+}
+
+.card__body {
+	padding:20px 0px;
 }
 
 .package__features {

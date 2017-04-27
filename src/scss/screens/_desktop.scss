@@ -10,6 +10,7 @@
 	display:inline-block;
 	margin:0px 15px;
 	border-bottom:2px solid rgba(0,0,0,0);
+	transition:0.5s;
 	&:hover {
 		border-bottom:2px solid $brandDarkOrange;
 	}
@@ -20,5 +21,4 @@
 	color: $medGray;
 	font-style:normal;
 	text-decoration:none;
-
 }

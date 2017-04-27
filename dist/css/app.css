@@ -387,6 +387,7 @@ p {
 .nav__main {
   display: none;
   background-image: linear-gradient(to bottom right, #FF3800 0%, #FF7D00 100%);
+  transition: 0.5s;
   position: absolute;
   padding: 25px;
   left: 0px;
@@ -426,7 +427,8 @@ p {
   color: #ffffff;
   transition: 0.5s;
   text-decoration: none;
-  background-image: linear-gradient(to bottom right, #FF3800 0%, #FF7D00 100%); }
+  background-image: linear-gradient(to bottom right, #FF3800 0%, #FF7D00 100%);
+  transition: 0.5s; }
   .button:hover {
     background: linear-gradient(to bottom right, #FF7D00 0%, #FF3800 100%); }
 
@@ -446,10 +448,14 @@ p {
 
 .card {
   background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1); }
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.2s; }
+  .card:hover {
+    transform: translateY(-5px); }
 
 .card__top {
   background-image: linear-gradient(to bottom right, #FF3800 0%, #FF7D00 100%);
+  transition: 0.5s;
   padding: 20px;
   text-align: center; }
   .card__top:hover {
@@ -470,6 +476,9 @@ p {
     color: #513800;
     letter-spacing: 0;
     line-height: 1.5em; }
+
+.card__body {
+  padding: 20px 0px; }
 
 .package__features {
   font-family: FreightSansProLight-Italic;
@@ -565,7 +574,8 @@ p {
   .nav__item {
     display: inline-block;
     margin: 0px 15px;
-    border-bottom: 2px solid transparent; }
+    border-bottom: 2px solid transparent;
+    transition: 0.5s; }
     .nav__item:hover {
       border-bottom: 2px solid #FF8A00; }
   .nav__link {

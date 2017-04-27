@@ -3,7 +3,7 @@
 	background-image: -webkit-linear-gradient(top left, #FF3800 0%, #FF7D00 100%);
 	background-image: -o-linear-gradient(top left, #FF3800 0%, #FF7D00 100%);
 	background-image: linear-gradient(to bottom right, #FF3800 0%, #FF7D00 100%);
-
+	transition:0.5s;
 	&:hover {
 		background: -webkit-linear-gradient(top left, #FF7D00 0%, #FF3800 100%);
 		background: -o-linear-gradient(top left, #FF7D00 0%, #FF3800 100%);
