@@ -1,12 +1,17 @@
 // Global CSS goes here
 
+
 html, body {
 	font-family:"freight-sans-pro", arial, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
 	color: $darkGray;
+	box-sizing:border-box;
+}
 
+* {
+	box-sizing:inherit;
 }
 
 h1 {
@@ -89,12 +94,55 @@ line-height: 24px;
 }
 
 .orange-lede {
-/* Rectangle 2 Copy 5: */
-background-image: linear-gradient(-135deg, #FF3800 0%, #FF7D00 100%);
+	background-image: linear-gradient(-135deg, #FF3800 0%, #FF7D00 100%);
+	padding:50px 0px;
+	font-family: FreightSansProBook-Regular;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 24px;
 
-font-family: FreightSansProBook-Regular;
-font-size: 18px;
-color: #FFFFFF;
-letter-spacing: 0;
-line-height: 24px;
+	p {
+		color:$white;
+	}
+}
+
+.card {
+	background: #FFFFFF;
+	border: 1px solid rgba(0,0,0,0.10);
+}
+
+.card__top {
+	@include orangegradient;
+	padding:20px;
+	text-align:center;
+	h2 {
+				/* Basic: */
+		font-family: FreightSansProLight-Regular;
+		font-size: 45px;
+		color: #FFFFFF;
+		font-weight: 100;
+		letter-spacing: 0;
+		margin:0px;
+		text-align: center;
+	}
+
+	.card__top__price {
+	/* $1,800: */
+		font-family: FreightSansProBook-Italic;
+		font-size: 24px;
+		color: #513800;
+		letter-spacing: 0;	
+		line-height:1.5em;
+	}
+}
+
+.package__features {
+	font-family: FreightSansProLight-Italic;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 34px;
+	list-style:none;
+	text-align:center;
 }

@@ -21,12 +21,21 @@
     margin: 0 auto;
 }
 
+.wrapper-narrow {
+    max-width:50em;
+    margin:0 auto;
+}
+
 .u-vCenter {
     display: table;
     position: relative;
     height: 100%;
 
     z-index: 2;
+}
+
+.u-textCenter {
+    text-align: center;
 }
 
 .u-floatRight {
@@ -41,6 +50,8 @@
 @media screen and (min-width: $desktopWidth)  {
     .wrapper {      
         max-width: $grid-max-width;     
+        display:flex;
+        justify-content: center;
     }
 
     @for $i from 1 through $grid-columns {      
