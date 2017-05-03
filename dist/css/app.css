@@ -415,6 +415,9 @@ p {
   text-transform: uppercase;
   text-decoration: none; }
 
+.nav-toggle {
+  margin: 20px; }
+
 .button {
   display: inline-block;
   padding: 8px 10px;
@@ -632,6 +635,8 @@ textarea {
     position: static;
     float: right;
     padding: 0px; }
+    .nav__main:hover {
+      background: none; }
   .nav__item {
     display: inline-block;
     margin: 0px 15px;
