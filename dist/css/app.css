@@ -465,7 +465,6 @@ p {
     max-width: 100%; }
 
 .packages {
-  min-height: 85vh;
   background-color: rgba(0, 0, 0, 0.1); }
 
 .card {
