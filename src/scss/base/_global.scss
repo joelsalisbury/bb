@@ -15,14 +15,18 @@ html, body {
 }
 
 h1 {
-	font-size: 55px;
+	font-size: 10vw;
 	font-weight: 300;
 	font-style: italic;
-	line-height: 55px;
+	line-height: 10vw;
 	color: $darkBlue;
 	small {
 		font-weight: 100;
 	}
+}
+
+.section {
+	min-height:100vh;
 }
 
 p {
@@ -44,11 +48,11 @@ line-height: 24px;
 	position:absolute;
 	padding:25px;
 	left:0px;
-	right:5%;
+	right:0%;
 	bottom:0px;
 	top:0px;
 	&:hover {
-		background:transparent;
+		//background:transparent;
 	}
 }
 
@@ -67,10 +71,10 @@ line-height: 24px;
 	font-size:75px;
 	font-style:italic;
 	text-transform:uppercase;
+	text-decoration:none;
 }
 
 .button {
-	font-family: FreightSansProSemibold-Regular;
 
 	display:inline-block;
 	padding:8px 10px;
@@ -81,7 +85,7 @@ line-height: 24px;
 	text-align: center;
 	line-height: 15px;
 	letter-spacing: 2px;
-	font-weight:200;
+	font-weight:100;
 	transition:0.5s;
 	text-decoration:none;
 	border:none;
@@ -99,9 +103,6 @@ color: #FFFFFF;
 
 }
 
-#hero {
-	margin-top:80px;
-}
 
 .orange-lede {
 	background-image: linear-gradient(-135deg, #FF3800 0%, #FF7D00 100%);
@@ -115,6 +116,25 @@ color: #FFFFFF;
 	p {
 		color:$white;
 	}
+}
+
+.lede-col {
+	width:70%;
+	float:none;
+	padding:25px;
+}
+
+.hero-img {
+	width:30%;
+		padding-top:25px;
+	picture {
+		max-width: 100%;
+	}
+}
+
+.packages {
+	min-height:85vh;
+	background-color:$lightGray;
 }
 
 .card {
@@ -177,6 +197,15 @@ color: #FFFFFF;
 	text-align:center;
 }
 
+.gray-header {
+
+font-family: FreightSansProBook-Italic;
+font-size: 35px;
+color: rgba(0,0,0,0.60);
+letter-spacing: 0;
+line-height: 55px;
+}
+
 .input-text, select, {
 	width:100%;
 	border-radius:0px;
@@ -196,3 +225,6 @@ color: #FFFFFF;
 	height:38px;
 }
 
+textarea {
+	height:250px;
+}

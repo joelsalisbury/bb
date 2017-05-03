@@ -14,15 +14,22 @@
 
 <header class="header__main">
 	<div class="clearfix">
-		<a href="#" class="logo"><img src="dist/img/bb-logo.svg"></a>
+		<a href="#" class="logo">
+			
+				
+				<img src="dist/img/bb-logo.svg">
+			
+		</a>
+
+		<a class="u-floatRight nav-toggle mobile-only">menu</a>
 		<nav class="nav__main">
-			<img class="mobile-only" src="dist/img/BuiltBetter-Type.png">
 			<div class="wrapper">
-			<ul class="nav__list">
-				<li class="nav__item"><a href="#" class="nav__link">About</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">Packages</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-			</ul>
+
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#" class="nav__link">About</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Packages</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+				</ul>
 			</div>
 		</nav>
 	</div>
@@ -30,14 +37,20 @@
 
 <main class="content__main clearfix">
 	<section class="section hero clearfix" id="hero">
-			<div class="u-floatRight">
-				<img src="src/img/MacBook.png">
+			<div class="u-floatRight hero-img">
+				<picture class="u-floatRight">
+				    <source srcset="src/img/MacBook.png" media="(min-width: 1000px)">
+				    <source srcset="src/img/Ipad.png" media="(min-width:768px)">
+				    <img src ="src/img/iPhone.png" alt="Blerg">
+				</picture>
 			</div>
 
-			<div class="column-6 u-floatRight">
-				<h1><small>Better Websites.</small><br>Better Small Businesses.</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis massa at mattis dignissim. Nunc eget sapien venenatis, sollicitudin quam a, volutpat dui.</p>
-				<a href="#" class="button button--orange">See Pricing</a>
+			<div class="lede-col">
+				<div class="u-floatRight">
+					<h1><small>Better Websites.</small><br>Better Small Businesses.</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis massa at mattis dignissim. Nunc eget sapien venenatis, sollicitudin quam a, volutpat dui.</p>
+					<a href="#" class="button button--orange">See Pricing</a>
+				</div>
 			</div>
 			
 	</section>
@@ -52,7 +65,11 @@
 
 	<section class="section packages clearfix">
 		<div class="wrapper">
-		
+			<div class="head-wrap column-12 u-textCenter">
+				<h1 class="gray-header">Let's get a look at that package.</h1>
+			</div>
+		</div>
+		<div class="wrapper">
 			<div class="column-3">
 				<div class="card">
 					<div class="card__top">
@@ -128,7 +145,7 @@
 				<div class="column-6"><input placeholder="Email" class="input-text input-single-line" type="text"></div>
 				<div class="column-6"><input placeholder="Phone" class="input-text input-single-line" type="text"></div>
 				<div class="column-6"><input placeholder="Company" class="input-text input-single-line" type="text"></div>
-				<div class="column-12"><select></select></div>
+				<div class="column-12"><select class="input-single-line"></select></div>
 				<div class="column-12"><textarea class="input-text"></textarea></div>
 				<div class="u-textCenter"><button class="button button--black">Let's Get Started!</button></div>
 			</form>

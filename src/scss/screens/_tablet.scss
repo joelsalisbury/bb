@@ -1,3 +1,41 @@
 .mobile-only {
 	display:none;
 }
+
+.lede-col {
+	width:70%;
+}
+
+.hero-img {
+	width:30%;
+
+}
+
+#hero {
+	margin-top:80px;
+}
+
+.nav__main {
+	display:block;
+	background:transparent;
+	position:static;
+	float:right;
+	padding:0px;
+}
+
+.nav__item {
+	display:inline-block;
+	margin:0px 15px;
+	border-bottom:2px solid rgba(0,0,0,0);
+	transition:0.5s;
+	&:hover {
+		border-bottom:2px solid $brandDarkOrange;
+	}
+}
+
+.nav__link {
+	font-size:16px;
+	color: $medGray;
+	font-style:normal;
+	text-decoration:none;
+}
