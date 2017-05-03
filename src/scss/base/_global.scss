@@ -30,7 +30,7 @@ h1 {
 }
 
 p {
-font-family: FreightSansProBook-Regular;
+
 font-size: 16px;
 color: rgba(0,0,0,0.70);
 letter-spacing: 0;
@@ -81,7 +81,7 @@ line-height: 24px;
 .button {
 
 	display:inline-block;
-	padding:8px 10px;
+	padding:12px 12px;
 	color:#fff;
 	text-transform:uppercase;
 	font-size: 12px;
@@ -100,6 +100,8 @@ line-height: 24px;
 	@include orangegradient;
 }
 
+
+
 .button--black {
 background: #171514;
 
@@ -111,7 +113,7 @@ color: #FFFFFF;
 .orange-lede {
 	background-image: linear-gradient(-135deg, #FF3800 0%, #FF7D00 100%);
 	padding:50px 0px;
-	font-family: FreightSansProBook-Regular;
+	
 	font-size: 18px;
 	color: #FFFFFF;
 	letter-spacing: 0;
@@ -155,8 +157,7 @@ color: #FFFFFF;
 	padding:20px;
 	text-align:center;
 	h2 {
-				/* Basic: */
-		font-family: FreightSansProLight-Regular;
+		
 		font-size: 45px;
 		color: #FFFFFF;
 		font-weight: 100;
@@ -166,8 +167,7 @@ color: #FFFFFF;
 	}
 
 	.card__top__price {
-	/* $1,800: */
-		font-family: FreightSansProBook-Italic;
+	
 		font-size: 24px;
 		color: #513800;
 		letter-spacing: 0;	
@@ -180,7 +180,6 @@ color: #FFFFFF;
 }
 
 .package__features {
-	font-family: FreightSansProLight-Italic;
 	font-size: 16px;
 	color: #000000;
 	letter-spacing: 0;
@@ -192,7 +191,6 @@ color: #FFFFFF;
 }
 
 .white-header {
-	font-family: FreightSansProBook-Italic;
 	font-size: 35px;
 	color: #FFFFFF;
 	letter-spacing: 0;
@@ -203,12 +201,11 @@ color: #FFFFFF;
 
 .gray-header {
 
-font-family: FreightSansProBook-Italic;
 font-size: 35px;
 color: rgba(0,0,0,0.60);
 letter-spacing: 0;
 line-height: 55px;
-}
+} 
 
 .input-text, select, {
 	width:100%;
@@ -217,7 +214,6 @@ line-height: 55px;
 		/* Rectangle: */
 	background: #FFFFFF;
 	/* Name*: */
-	font-family: FreightSansProBook-Italic;
 	font-size: 14px;
 	color: rgba(0,0,0,0.40);
 	letter-spacing: 0.58px;
@@ -231,4 +227,14 @@ line-height: 55px;
 
 textarea {
 	height:250px;
+}
+
+.footer__main {
+	width:100%;
+	background:black;
+	min-height:48px;
+	text-align:center;
+	p{
+		color:$white;
+	}
 }
