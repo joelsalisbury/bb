@@ -39,18 +39,25 @@ p {
 
 .header__main {
 	border-bottom:1px solid $lightGray;
-	height:61px;
+	min-height:61px;
+}
+
+.nav-holder.orange{
+	@include orangegradient;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+
+	#logo {
+		margin:15px;
+	}
 }
 
 .nav__main {
 	display:none;
-	@include orangegradient;
-	position:absolute;
 	padding:25px;
-	left:0px;
-	right:0%;
-	bottom:0px;
-	top:0px;
 	&:hover {
 		//background:transparent;
 	}
@@ -76,6 +83,15 @@ p {
 
 .nav-toggle {
 	margin:20px;
+	display:inline-block;
+	height:32px;
+	width:32px;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	background-image:url("../img/hamburger.png");
+	.reverse {
+		background-image:url("../img/hamburger-reverse.png");
+	}
 }
 
 .button {
