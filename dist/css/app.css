@@ -384,7 +384,7 @@ p {
 
 .header__main {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  min-height: 61px; }
+  height: 61px; }
 
 .nav-holder.orange {
   background-image: linear-gradient(to bottom right, #FF3800 0%, #FF7D00 100%);
@@ -426,7 +426,7 @@ p {
   background-repeat: no-repeat;
   text-indent: -9999px;
   background-image: url("../img/hamburger.png"); }
-  .nav-toggle .reverse {
+  .nav-toggle.reverse {
     background-image: url("../img/hamburger-reverse.png"); }
 
 .button {

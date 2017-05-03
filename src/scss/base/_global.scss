@@ -39,7 +39,7 @@ p {
 
 .header__main {
 	border-bottom:1px solid $lightGray;
-	min-height:61px;
+	height:61px;
 }
 
 .nav-holder.orange{
@@ -89,7 +89,7 @@ p {
 	background-repeat:no-repeat;
 	text-indent:-9999px;
 	background-image:url("../img/hamburger.png");
-	.reverse {
+	&.reverse {
 		background-image:url("../img/hamburger-reverse.png");
 	}
 }
