@@ -364,6 +364,12 @@ html, body {
 * {
   box-sizing: inherit; }
 
+.required {
+  font-size: 11px;
+  color: #fff;
+  display: block;
+  font-weight: 500; }
+
 strong {
   font-weight: 500;
   font-style: italic; }
@@ -413,7 +419,7 @@ p {
 
 .nav__item {
   list-style: none;
-  line-height: 60px; }
+  line-height: 57px; }
 
 .nav__link {
   color: #ffffff;
@@ -432,6 +438,9 @@ p {
   background-image: url("../img/hamburger.png"); }
   .nav-toggle.reverse {
     background-image: url("../img/hamburger-reverse.png"); }
+
+.hero {
+  height: 75vh; }
 
 .button {
   display: inline-block;
@@ -588,6 +597,9 @@ p {
 .input-single-line {
   height: 38px; }
 
+.input-wrap {
+  padding: 0.5em !important; }
+
 textarea {
   height: 250px; }
 
@@ -626,6 +638,10 @@ textarea {
 
 .wrapper-narrow {
   max-width: 50em;
+  margin: 0 auto; }
+
+.wrapper-super-narrow {
+  width: 40em;
   margin: 0 auto; }
 
 .u-vCenter {
@@ -702,7 +718,10 @@ textarea {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
     font-style: normal;
-    text-decoration: none; } }
+    text-decoration: none;
+    display: inline-block; }
+  .hero {
+    min-height: 600px; } }
 
 @media screen and (min-width: 62em) {
   h1 {
@@ -717,5 +736,4 @@ textarea {
     width: 50%;
     max-width: 900px; }
   .nav-holder {
-    max-width: 95em;
     margin: 0 auto; } }
