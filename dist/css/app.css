@@ -458,6 +458,8 @@ p {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
+  .hero > div {
+    width: 100%; }
 
 .button {
   display: inline-block;

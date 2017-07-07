@@ -127,6 +127,10 @@ p {
 	height:75vh;
 	display:flex;
 	align-items:center;
+	
+	>div {
+		width:100%;
+	}
 }
 
 .button {
