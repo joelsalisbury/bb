@@ -33,7 +33,10 @@
 </header>
 
 <main class="content__main clearfix">
-	<section class="section hero clearfix" id="hero">
+	<section class="section hero clearfix " id="hero">
+
+		<div>
+
 			<div class="u-floatRight hero-img">
 				<picture class="u-floatRight">
 				    <source srcset="dist/img/MacBook.png" media="(min-width: 1000px)">
@@ -49,7 +52,7 @@
 					<a href="#" class="button button--orange">See Pricing</a>
 				</div>
 			</div>
-			
+		</div>
 	</section>
 
 
@@ -61,7 +64,7 @@
 
 	<section id="packages" class="section packages clearfix">
 		<div class="wrapper">
-			<div class="head-wrap column-12 u-textCenter">
+			<div class="head-wrap wrapper u-textCenter">
 				<h1 class="gray-header">Website Packages</h1>
 			</div>
 		</div>
@@ -95,7 +98,6 @@
 						<ul class="package__features">
 							<li>2-5 custom page templates</li>
 							<li>Email Opt-in Integration</li>
-							<li>Email Collection</li>
 							<li>Contact Form</li>
 							<li>Advanced SEO Configuration</li>
 							<li>Responsive Design</li>
@@ -120,7 +122,6 @@
 							<li>WordPress Integration and Training</li>
 							<li>CRM Integration (Zoho, Salesforce, Highrise, etc.) </li>
 							<li>Email Opt-in Integration</li>
-							<li>Email Collection</li>
 							<li>Contact Form</li>
 							<li>Advanced SEO Configuration</li>
 							<li>Responsive Design</li>
@@ -152,13 +153,18 @@
 				<div class="column-6 input-wrap"><input placeholder="Phone" class="input-text input-single-line" type="text"></div>
 				<div class="column-6 input-wrap"><input placeholder="Company" class="input-text input-single-line" type="text"></div>
 				<div class="column-12 input-wrap">
-					<select class="input-single-line">
-						<option selected disabled>Package</option>
-						<option>Startup</option>
-						<option>Growth</option>
-						<option>Leader</option>
-						<option>Custom</option>
-					</select>
+				  <div class="input-radio column-3">
+				  	<label for="package-startup"><input type="radio" id="package-startup" name="package" value="Startup" checked> Startup</label>
+				  </div>
+				  <div class="input-radio column-3">
+				  	<label for="package-growth"><input type="radio" id="package-growth" name="package" value="Growth"> Growth</label>
+				  </div>
+				  <div class="input-radio column-3">
+				  	<label for="package-leader"><input id="package-leader" type="radio" name="package" value="Leader"> Leader </label>
+				  </div>
+				  <div class="input-radio column-3">
+				  	<label for="package-notsure"><input type="radio" id="package-notsure" name="package" value="Not Sure"> Not Sure </label>
+				  </div>
 				</div>
 				<div class="column-12 input-wrap"><textarea class="input-text"></textarea></div>
 				<div class="u-textCenter"><button class="button button--black">Let's Get Started!</button>
