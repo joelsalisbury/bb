@@ -453,7 +453,10 @@ p {
     background-image: url("../img/hamburger-reverse.png"); }
 
 .nav__footer {
-  float: right; }
+  clear: both;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center; }
   .nav__footer .nav__link {
     color: #eee;
     font-size: 14px;
@@ -658,7 +661,9 @@ textarea {
     overflow: auto; }
   .footer__main p {
     color: #ffffff;
-    float: left; }
+    float: left;
+    text-align: center;
+    width: 100%; }
 
 .background-orange {
   background-image: linear-gradient(to bottom right, #FF3800 0%, #FF7D00 100%);
@@ -784,4 +789,13 @@ textarea {
     width: 50%;
     max-width: 900px; }
   .nav-holder {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .nav__footer {
+    clear: none;
+    float: right;
+    width: auto;
+    text-align: left; }
+  .footer__main p {
+    float: left;
+    text-align: left;
+    width: auto; } }
