@@ -3,7 +3,7 @@
 
 html, body {
 	font-family:"freight-sans-pro", arial, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
 	color: $darkGray;
@@ -59,24 +59,25 @@ h2,h3,h4,h5 {
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 	color: rgba(0,0,0,0.70);
 	letter-spacing: 0;
-	line-height: 28px;
+	line-height: 24px;
 }
 
 .header__main {
 	border-bottom:1px solid $lightGray;
 	height:61px;
+	transition:0.5s;
+
+	&.nav--open {
+		height:auto;
+	}
 }
 
 .nav-holder.orange{
 	@include orangegradient;
-	position:fixed;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
+
 
 	#logo {
 		margin:15px;
@@ -88,6 +89,16 @@ p {
 	padding:25px;
 	&:hover {
 		//background:transparent;
+	}
+}
+
+.nav--inline {
+	margin:0px;
+	padding:0px;
+	li {
+		display:inline-block;
+		margin:20px;
+		a {font-size:24px};
 	}
 }
 
@@ -129,7 +140,7 @@ p {
 	text-align:center;
 	.nav__link {
 		color:#eee;
-		font-size:14px;
+		font-size:16px;
 		text-transform: capitalize;
 	}
 }
@@ -159,6 +170,7 @@ p {
 	transition:0.5s;
 	text-decoration:none;
 	border:none;
+	min-width:150px;
 }
 
 .button--orange {
@@ -238,7 +250,7 @@ color: #FFFFFF;
 	text-align:center;
 	
 	h2 {
-		
+		font-style: normal;
 		font-size: 45px;
 		color: #FFFFFF;
 		font-weight: 100;

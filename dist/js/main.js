@@ -11,17 +11,17 @@
 			else
 				var src = "dist/img/bb-logo.svg";
 		
-
+    $('.header__main').toggleClass('nav--open');
 		$("#logo").attr('src',src);
 		$(this).toggleClass('reverse');
 		$(this).parents('.nav-holder').toggleClass('nav-open');
 
 	});
 
-	$("body").on('click', '.nav-open li a', function(e){
-		$(this).parents('nav').toggle();
-		$(this).parents(".nav-holder").toggleClass('orange');
-	});
+	// $("body").on('click', '.nav-open li a', function(e){
+	// 	$(this).parents('nav').toggle();
+	// 	$(this).parents(".nav-holder").toggleClass('orange');
+	// });
 
 
 

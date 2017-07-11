@@ -355,7 +355,7 @@ th {
 
 html, body {
   font-family: "freight-sans-pro", arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.7);
@@ -400,23 +400,21 @@ h2, h3, h4, h5 {
   margin-top: 0px; }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.7);
   letter-spacing: 0;
-  line-height: 28px; }
+  line-height: 24px; }
 
 .header__main {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  height: 61px; }
+  height: 61px;
+  transition: 0.5s; }
+  .header__main.nav--open {
+    height: auto; }
 
 .nav-holder.orange {
   background-image: linear-gradient(to bottom right, #FF3800 0%, #FF7D00 100%);
-  transition: 0.5s;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; }
+  transition: 0.5s; }
   .nav-holder.orange:hover {
     background: linear-gradient(to bottom right, #FF7D00 0%, #FF3800 100%); }
   .nav-holder.orange #logo {
@@ -425,6 +423,15 @@ p {
 .nav__main {
   display: none;
   padding: 25px; }
+
+.nav--inline {
+  margin: 0px;
+  padding: 0px; }
+  .nav--inline li {
+    display: inline-block;
+    margin: 20px; }
+    .nav--inline li a {
+      font-size: 24px; }
 
 .nav__list {
   margin: 0px;
@@ -459,7 +466,7 @@ p {
   text-align: center; }
   .nav__footer .nav__link {
     color: #eee;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: capitalize; }
 
 .hero {
@@ -484,7 +491,8 @@ p {
   font-weight: 100;
   transition: 0.5s;
   text-decoration: none;
-  border: none; }
+  border: none;
+  min-width: 150px; }
 
 .button--orange {
   color: #ffffff;
@@ -549,6 +557,7 @@ p {
   .card__top:hover {
     background: linear-gradient(to bottom right, #FF7D00 0%, #FF3800 100%); }
   .card__top h2 {
+    font-style: normal;
     font-size: 45px;
     color: #FFFFFF;
     font-weight: 100;
@@ -798,4 +807,5 @@ textarea {
   .footer__main p {
     float: left;
     text-align: left;
-    width: auto; } }
+    width: auto;
+    font-size: 16px; } }
